@@ -136,7 +136,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = xyz;
+				ORGANIZATIONNAME = aaa;
 			};
 			buildConfigurationList = 3AAD455C1806C2FB004A629E /* Build configuration list for PBXProject "demoARTProgressView" */;
 			compatibilityVersion = "Xcode 3.2";
