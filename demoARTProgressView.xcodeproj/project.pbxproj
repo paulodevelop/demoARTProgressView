@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5B3EDE1827D24F00B986E5 /* demoARTProgressView screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A5B3EDD1827D24F00B986E5 /* demoARTProgressView screenshot.png */; };
 		3A5CE96218193A2B0068F34A /* ARTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CE96118193A2B0068F34A /* ARTProgressView.m */; };
 		3AAD45651806C2FB004A629E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAD45641806C2FB004A629E /* Foundation.framework */; };
 		3AAD45671806C2FB004A629E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAD45661806C2FB004A629E /* CoreGraphics.framework */; };
@@ -17,45 +18,26 @@
 		3AAD45781806C2FB004A629E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD45761806C2FB004A629E /* Main.storyboard */; };
 		3AAD457B1806C2FB004A629E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD457A1806C2FB004A629E /* ViewController.m */; };
 		3AAD457D1806C2FB004A629E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD457C1806C2FB004A629E /* Images.xcassets */; };
-		3AAD45841806C2FB004A629E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAD45831806C2FB004A629E /* XCTest.framework */; };
-		3AAD45851806C2FB004A629E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAD45641806C2FB004A629E /* Foundation.framework */; };
-		3AAD45861806C2FB004A629E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAD45681806C2FB004A629E /* UIKit.framework */; };
-		3AAD458E1806C2FB004A629E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD458C1806C2FB004A629E /* InfoPlist.strings */; };
-		3AAD45901806C2FB004A629E /* testARTProgressVoewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD458F1806C2FB004A629E /* testARTProgressVoewTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3AAD45871806C2FB004A629E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3AAD45591806C2FB004A629E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AAD45601806C2FB004A629E;
-			remoteInfo = testARTProgressVoew;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3A5B3EDD1827D24F00B986E5 /* demoARTProgressView screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demoARTProgressView screenshot.png"; sourceTree = "<group>"; };
 		3A5CE96018193A2B0068F34A /* ARTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTProgressView.h; path = ../../toolkit/ARTProgressView.h; sourceTree = "<group>"; };
 		3A5CE96118193A2B0068F34A /* ARTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTProgressView.m; path = ../../toolkit/ARTProgressView.m; sourceTree = "<group>"; };
-		3AAD45611806C2FB004A629E /* testARTProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testARTProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAD45611806C2FB004A629E /* demoARTProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoARTProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAD45641806C2FB004A629E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AAD45661806C2FB004A629E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3AAD45681806C2FB004A629E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3AAD456C1806C2FB004A629E /* testARTProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testARTProgressView-Info.plist"; sourceTree = "<group>"; };
+		3AAD456C1806C2FB004A629E /* demoARTProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demoARTProgressView-Info.plist"; sourceTree = "<group>"; };
 		3AAD456E1806C2FB004A629E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AAD45701806C2FB004A629E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3AAD45721806C2FB004A629E /* testARTProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testARTProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		3AAD45721806C2FB004A629E /* demoARTProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoARTProgressView-Prefix.pch"; sourceTree = "<group>"; };
 		3AAD45731806C2FB004A629E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AAD45741806C2FB004A629E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3AAD45771806C2FB004A629E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AAD45791806C2FB004A629E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3AAD457A1806C2FB004A629E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3AAD457C1806C2FB004A629E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3AAD45821806C2FB004A629E /* testARTProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testARTProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AAD45831806C2FB004A629E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3AAD458B1806C2FB004A629E /* testARTProgressViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testARTProgressViewTests-Info.plist"; sourceTree = "<group>"; };
-		3AAD458D1806C2FB004A629E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3AAD458F1806C2FB004A629E /* testARTProgressVoewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testARTProgressVoewTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,24 +51,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AAD457F1806C2FB004A629E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AAD45841806C2FB004A629E /* XCTest.framework in Frameworks */,
-				3AAD45861806C2FB004A629E /* UIKit.framework in Frameworks */,
-				3AAD45851806C2FB004A629E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3AAD45581806C2FB004A629E = {
 			isa = PBXGroup;
 			children = (
-				3AAD456A1806C2FB004A629E /* testARTProgressView */,
-				3AAD45891806C2FB004A629E /* testARTProgressVoewTests */,
+				3AAD456A1806C2FB004A629E /* demoARTProgressView */,
 				3AAD45631806C2FB004A629E /* Frameworks */,
 				3AAD45621806C2FB004A629E /* Products */,
 			);
@@ -95,8 +66,7 @@
 		3AAD45621806C2FB004A629E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD45611806C2FB004A629E /* testARTProgressView.app */,
-				3AAD45821806C2FB004A629E /* testARTProgressViewTests.xctest */,
+				3AAD45611806C2FB004A629E /* demoARTProgressView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,12 +77,11 @@
 				3AAD45641806C2FB004A629E /* Foundation.framework */,
 				3AAD45661806C2FB004A629E /* CoreGraphics.framework */,
 				3AAD45681806C2FB004A629E /* UIKit.framework */,
-				3AAD45831806C2FB004A629E /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3AAD456A1806C2FB004A629E /* testARTProgressView */ = {
+		3AAD456A1806C2FB004A629E /* demoARTProgressView */ = {
 			isa = PBXGroup;
 			children = (
 				3A5CE96018193A2B0068F34A /* ARTProgressView.h */,
@@ -125,35 +94,17 @@
 				3AAD457C1806C2FB004A629E /* Images.xcassets */,
 				3AAD456B1806C2FB004A629E /* Supporting Files */,
 			);
-			name = testARTProgressView;
-			path = testARTProgressVoew;
+			path = demoARTProgressView;
 			sourceTree = "<group>";
 		};
 		3AAD456B1806C2FB004A629E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD456C1806C2FB004A629E /* testARTProgressView-Info.plist */,
+				3AAD456C1806C2FB004A629E /* demoARTProgressView-Info.plist */,
 				3AAD456D1806C2FB004A629E /* InfoPlist.strings */,
 				3AAD45701806C2FB004A629E /* main.m */,
-				3AAD45721806C2FB004A629E /* testARTProgressView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3AAD45891806C2FB004A629E /* testARTProgressVoewTests */ = {
-			isa = PBXGroup;
-			children = (
-				3AAD458F1806C2FB004A629E /* testARTProgressVoewTests.m */,
-				3AAD458A1806C2FB004A629E /* Supporting Files */,
-			);
-			path = testARTProgressVoewTests;
-			sourceTree = "<group>";
-		};
-		3AAD458A1806C2FB004A629E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AAD458B1806C2FB004A629E /* testARTProgressViewTests-Info.plist */,
-				3AAD458C1806C2FB004A629E /* InfoPlist.strings */,
+				3AAD45721806C2FB004A629E /* demoARTProgressView-Prefix.pch */,
+				3A5B3EDD1827D24F00B986E5 /* demoARTProgressView screenshot.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AAD45601806C2FB004A629E /* testARTProgressView */ = {
+		3AAD45601806C2FB004A629E /* demoARTProgressView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AAD45931806C2FB004A629E /* Build configuration list for PBXNativeTarget "testARTProgressView" */;
+			buildConfigurationList = 3AAD45931806C2FB004A629E /* Build configuration list for PBXNativeTarget "demoARTProgressView" */;
 			buildPhases = (
 				3AAD455D1806C2FB004A629E /* Sources */,
 				3AAD455E1806C2FB004A629E /* Frameworks */,
@@ -173,28 +124,10 @@
 			);
 			dependencies = (
 			);
-			name = testARTProgressView;
+			name = demoARTProgressView;
 			productName = testARTProgressVoew;
-			productReference = 3AAD45611806C2FB004A629E /* testARTProgressView.app */;
+			productReference = 3AAD45611806C2FB004A629E /* demoARTProgressView.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3AAD45811806C2FB004A629E /* testARTProgressViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AAD45961806C2FB004A629E /* Build configuration list for PBXNativeTarget "testARTProgressViewTests" */;
-			buildPhases = (
-				3AAD457E1806C2FB004A629E /* Sources */,
-				3AAD457F1806C2FB004A629E /* Frameworks */,
-				3AAD45801806C2FB004A629E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3AAD45881806C2FB004A629E /* PBXTargetDependency */,
-			);
-			name = testARTProgressViewTests;
-			productName = testARTProgressVoewTests;
-			productReference = 3AAD45821806C2FB004A629E /* testARTProgressViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,13 +137,8 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = xyz;
-				TargetAttributes = {
-					3AAD45811806C2FB004A629E = {
-						TestTargetID = 3AAD45601806C2FB004A629E;
-					};
-				};
 			};
-			buildConfigurationList = 3AAD455C1806C2FB004A629E /* Build configuration list for PBXProject "testARTProgressView" */;
+			buildConfigurationList = 3AAD455C1806C2FB004A629E /* Build configuration list for PBXProject "demoARTProgressView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AAD45601806C2FB004A629E /* testARTProgressView */,
-				3AAD45811806C2FB004A629E /* testARTProgressViewTests */,
+				3AAD45601806C2FB004A629E /* demoARTProgressView */,
 			);
 		};
 /* End PBXProject section */
@@ -237,14 +164,7 @@
 				3AAD457D1806C2FB004A629E /* Images.xcassets in Resources */,
 				3AAD456F1806C2FB004A629E /* InfoPlist.strings in Resources */,
 				3AAD45781806C2FB004A629E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AAD45801806C2FB004A629E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AAD458E1806C2FB004A629E /* InfoPlist.strings in Resources */,
+				3A5B3EDE1827D24F00B986E5 /* demoARTProgressView screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,23 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AAD457E1806C2FB004A629E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AAD45901806C2FB004A629E /* testARTProgressVoewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3AAD45881806C2FB004A629E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3AAD45601806C2FB004A629E /* testARTProgressView */;
-			targetProxy = 3AAD45871806C2FB004A629E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AAD456D1806C2FB004A629E /* InfoPlist.strings */ = {
@@ -295,14 +199,6 @@
 				3AAD45771806C2FB004A629E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3AAD458C1806C2FB004A629E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AAD458D1806C2FB004A629E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,9 +282,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testARTProgressVoew/testARTProgressView-Prefix.pch";
-				INFOPLIST_FILE = "testARTProgressVoew/testARTProgressView-Info.plist";
-				PRODUCT_NAME = testARTProgressView;
+				GCC_PREFIX_HEADER = "testARTProgressVoew/demoARTProgressView-Prefix.pch";
+				INFOPLIST_FILE = "testARTProgressVoew/demoARTProgressView-Info.plist";
+				PRODUCT_NAME = demoARTProgressView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,59 +295,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testARTProgressVoew/testARTProgressView-Prefix.pch";
-				INFOPLIST_FILE = "testARTProgressVoew/testARTProgressView-Info.plist";
-				PRODUCT_NAME = testARTProgressView;
+				GCC_PREFIX_HEADER = "testARTProgressVoew/demoARTProgressView-Prefix.pch";
+				INFOPLIST_FILE = "testARTProgressVoew/demoARTProgressView-Info.plist";
+				PRODUCT_NAME = demoARTProgressView;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		3AAD45971806C2FB004A629E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testARTProgressVoew.app/testARTProgressVoew";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testARTProgressVoew/testARTProgressVoew-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "testARTProgressVoewTests/testARTProgressViewTests-Info.plist";
-				PRODUCT_NAME = testARTProgressViewTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		3AAD45981806C2FB004A629E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testARTProgressVoew.app/testARTProgressVoew";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testARTProgressVoew/testARTProgressVoew-Prefix.pch";
-				INFOPLIST_FILE = "testARTProgressVoewTests/testARTProgressViewTests-Info.plist";
-				PRODUCT_NAME = testARTProgressViewTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AAD455C1806C2FB004A629E /* Build configuration list for PBXProject "testARTProgressView" */ = {
+		3AAD455C1806C2FB004A629E /* Build configuration list for PBXProject "demoARTProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AAD45911806C2FB004A629E /* Debug */,
@@ -460,20 +314,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AAD45931806C2FB004A629E /* Build configuration list for PBXNativeTarget "testARTProgressView" */ = {
+		3AAD45931806C2FB004A629E /* Build configuration list for PBXNativeTarget "demoARTProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AAD45941806C2FB004A629E /* Debug */,
 				3AAD45951806C2FB004A629E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AAD45961806C2FB004A629E /* Build configuration list for PBXNativeTarget "testARTProgressViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AAD45971806C2FB004A629E /* Debug */,
-				3AAD45981806C2FB004A629E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

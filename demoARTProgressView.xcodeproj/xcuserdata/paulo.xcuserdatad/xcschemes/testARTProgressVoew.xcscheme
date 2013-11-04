@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3AAD45601806C2FB004A629E"
-               BuildableName = "testARTProgressView.app"
-               BlueprintName = "testARTProgressView"
-               ReferencedContainer = "container:testARTProgressView.xcodeproj">
+               BuildableName = "demoARTProgressView.app"
+               BlueprintName = "demoARTProgressView"
+               ReferencedContainer = "container:demoARTProgressView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3AAD45811806C2FB004A629E"
                BuildableName = "testARTProgressViewTests.xctest"
-               BlueprintName = "testARTProgressViewTests"
-               ReferencedContainer = "container:testARTProgressView.xcodeproj">
+               BlueprintName = "demoARTProgressViewTests"
+               ReferencedContainer = "container:demoARTProgressView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AAD45601806C2FB004A629E"
-            BuildableName = "testARTProgressView.app"
-            BlueprintName = "testARTProgressView"
-            ReferencedContainer = "container:testARTProgressView.xcodeproj">
+            BuildableName = "demoARTProgressView.app"
+            BlueprintName = "demoARTProgressView"
+            ReferencedContainer = "container:demoARTProgressView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AAD45601806C2FB004A629E"
-            BuildableName = "testARTProgressView.app"
-            BlueprintName = "testARTProgressView"
-            ReferencedContainer = "container:testARTProgressView.xcodeproj">
+            BuildableName = "demoARTProgressView.app"
+            BlueprintName = "demoARTProgressView"
+            ReferencedContainer = "container:demoARTProgressView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AAD45601806C2FB004A629E"
-            BuildableName = "testARTProgressView.app"
-            BlueprintName = "testARTProgressView"
-            ReferencedContainer = "container:testARTProgressView.xcodeproj">
+            BuildableName = "demoARTProgressView.app"
+            BlueprintName = "demoARTProgressView"
+            ReferencedContainer = "container:demoARTProgressView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
