@@ -7,6 +7,8 @@
     ARTProgressView *ascendingProgressView;
     ARTProgressView *descendingProgressView;
     ARTProgressView *randomProgressView;
+    
+    NSTimer *timerAsc, *timerDesc, *timerRandom;
 }
 
 @end
